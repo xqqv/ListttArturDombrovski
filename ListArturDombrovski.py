@@ -22,9 +22,8 @@ while True:
                     nimed.remove(nimi)
             else:
                 print(f"Nimi {nimi} ei ole nimekirjas")
-            nimed.remove(nimi)
         else:
-            indeks=(int("Mis on järjekorranumber?"))
+            indeks=int(input("Mis on järjekorranumber?"))
             nimed.pop(indeks-1)
     elif valik=="show":    
             print(nimed)
@@ -34,8 +33,14 @@ while True:
         print(nimed.sort())
     elif valik=="clear":
         print(nimed.clear())
-    
+    elif valik=="ots":
+        int=i 
+        nimi=input("Mis nimi otsime?")
+        if nimed.count(nimi)>0:
+            for nim in nimed:
+                if nim=nimi:
 
+    
 
 #1
 def draw_towers(n):
