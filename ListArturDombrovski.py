@@ -42,8 +42,8 @@ while True:
 
     
 
-#1
-def draw_towers(n):
+#1    
+def draw_towers(n):    # деф убрать и поменять
     i = 1
     while i <= n:
         spaces = " " * (n - i)
